@@ -1,0 +1,9 @@
+[project]
+name = "lecture_1"
+version = "0.1.0"
+description = "Lecture 1 task"
+
+dependencies = [
+    "colorama==0.4.6",
+]
+requires-python = "==3.12.4"
