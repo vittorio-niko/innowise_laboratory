@@ -1,0 +1,116 @@
+.DS_Store
+Thumbs.db
+*.swp
+*~
+~*
+*.bak
+*.backup
+
+.git/
+.gitignore
+.gitattributes
+.github/
+.gitlab/
+
+# === Python ===
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+.env
+.venv/
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+*.egg
+*.egg-info/
+dist/
+build/
+eggs/
+parts/
+var/
+sdist/
+develop-eggs/
+.installed.cfg
+lib/
+lib64/
+
+# PyInstaller
+*.manifest
+*.spec
+
+# pip
+pip-log.txt
+pip-delete-this-directory.txt
+
+# pytest
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+.nox/
+
+# === IDE ===
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# === OS ===
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+desktop.ini
+[Dd]esktop.ini
+*.lnk
+
+# Linux
+*~
+
+# === Logs ===
+*.log
+logs/
+log/
+
+# === Docker ===
+docker-compose.yml
+docker-compose.*.yml
+.dockerignore
+Dockerfile*
+docker-compose*
+.env
+.env.*
+
+docs/_build/
+.docz/
+site/
+
+tests/__pycache__/
+test/__pycache__/
+*.cover
+.hypothesis/
+.pytest_cache/
+
+# === Frameworks ===
+# Django
+*.sqlite3
+*.sqlite
+db.sqlite3
+mediafiles/
+staticfiles/
+
+# Flask
+instance/
+
+# FastAPI
+__pycache__/
+*.pyc
